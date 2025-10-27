@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Icons\inventory.png" />
+    <None Remove="Assets\Images\add.png" />
+    <None Remove="Assets\Images\clean.png" />
+    <None Remove="Assets\Images\clear.png" />
+    <None Remove="Assets\Images\remove.png" />
+    <None Remove="Assets\Images\sell.png" />
+    <None Remove="Assets\Images\withdraw.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Icons\inventory.png" />
+    <Resource Include="Assets\Images\add.png" />
+    <Resource Include="Assets\Images\clean.png" />
+    <Resource Include="Assets\Images\clear.png" />
+    <Resource Include="Assets\Images\remove.png" />
+    <Resource Include="Assets\Images\sell.png" />
+    <Resource Include="Assets\Images\withdraw.png" />
+  </ItemGroup>
+
+</Project>
