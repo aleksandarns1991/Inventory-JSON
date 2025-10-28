@@ -118,8 +118,8 @@ namespace Inventar
 
         private void btnClear_Click(object sender, RoutedEventArgs e)
         {
-            var result = MessageBox.Show("Are you sure you want to remove all articles?","Warning",
-                                         MessageBoxButton.YesNo, MessageBoxImage.Warning);
+            var result = MessageBox.Show("Are you sure you want to remove all articles?","Question",
+                                         MessageBoxButton.YesNo, MessageBoxImage.Question);
 
             if (result == MessageBoxResult.Yes)
             {

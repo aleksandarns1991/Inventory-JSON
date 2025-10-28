@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\Inventar\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{5844E941-FDC8-4C95-B6F3-E6EBF82FD524}|Inventar\\Inventar.csproj|c:\\users\\administrator\\source\\repos\\inventar\\inventar\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5844E941-FDC8-4C95-B6F3-E6EBF82FD524}|Inventar\\Inventar.csproj|solutionrelative:inventar\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,23 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Inventar\\Inventar\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Inventar\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Inventar\\Inventar\\MainWindow.xaml",
-              "RelativeToolTip": "Inventar\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-27T15:11:02.184Z",
-              "EditorCaption": ""
             }
           ]
         }

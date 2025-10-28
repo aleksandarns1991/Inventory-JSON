@@ -1,5 +1,4 @@
-﻿using Inventar.Models;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using System.Collections.ObjectModel;
 using System.IO;
 
@@ -7,16 +6,16 @@ namespace Inventar.DataAccess
 {
     public static class Serializer
     {
-        public static void Serialize<T>(IEnumerable<T> collection)
+        public static void Serialize<T>(ICollection<T> collection)
         {
-            var file = typeof(T) == typeof(Product) ? "products.json" : "sold.json";
+            var file = $"{typeof(T).Name}.json";
             var items = JsonConvert.SerializeObject(collection);
             File.WriteAllText(file, items );   
         }
 
         public static void Deserialize<T>(ICollection<T> collection)
         {
-            var file = typeof(T) == typeof(Product) ? "products.json" : "sold.json";
+            var file = $"{typeof(T).Name}.json";
 
             if (File.Exists(file))
             {

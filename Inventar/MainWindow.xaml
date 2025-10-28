@@ -145,7 +145,7 @@
                 <DataGridTemplateColumn Header="Withdraw">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <Button Name="btnCancel" Click="btnCancel_Click" ToolTip="Cancel buy">
+                            <Button Name="btnCancel" Click="btnCancel_Click" ToolTip="Withdraw">
                                 <Image Source="/Assets/Images/withdraw.png" Stretch="Fill"/>
                             </Button>
                         </DataTemplate>
